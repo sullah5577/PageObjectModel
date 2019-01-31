@@ -9,10 +9,10 @@ public class LoginPage extends Base {
 
     //Locators
 
-    private By signInLink = By.xpath("//a[@class='login']");
+    private By signInLink = By.xpath("(//a[text()='My Account'])[2]");
     private By emailTextField = By.id("email");
-    private By passTextField = By.id("passwd");
-    private By loginBtn = By.xpath("//button[@id='SubmitLogin']");
+    private By passTextField = By.id("pass");
+    private By loginBtn = By.xpath("//span[text()='Login']");
 
 
     //Methods

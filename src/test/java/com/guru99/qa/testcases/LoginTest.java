@@ -12,7 +12,7 @@ public class LoginTest extends DriverWrapper {
     public void clickOnSignBtn(){
         loginPage.clickOnSignIn();
 
-        loginPage.loginToApp("ullah.ss@gmail.com","JvP3a4xFkm7BABt");
+        loginPage.loginToApp("ullah.ss@gmail.com","abc123");
 
     }
 }
