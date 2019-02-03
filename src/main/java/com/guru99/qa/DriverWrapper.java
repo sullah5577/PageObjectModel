@@ -1,6 +1,8 @@
 package com.guru99.qa;
 
-import com.guru99.qa.utilities.ConfigReader;
+;
+import com.guru99.utilities.ConfigReader;
+import com.guru99.utilities.Log;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -28,6 +31,8 @@ public class DriverWrapper {
 
     @BeforeClass
     public void InitiliazeWebDriver(){
+        //Write a Log when tests is starting
+        Log.startLog("Test is starting!");
         ConfigReader reader = new ConfigReader();
 
         if (reader.getBrowser().equalsIgnoreCase("chrome")){
@@ -57,7 +62,7 @@ public class DriverWrapper {
 
     @AfterClass
     public void tearDown(){
-       // driver.quit();
+        driver.quit();
     }
 
 }
