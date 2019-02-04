@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Application Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.guru99.qa.listener.ExtentListener" />
+    </listeners>
+
+
+    <test name="Guru99 App Test Cases">
+        <classes>
+            <class name="com.guru99.qa.testcases.TC000"></class>
+            <class name="com.guru99.qa.testcases.TC001"></class>
+            <class name="com.guru99.qa.testcases.TC002"></class>
+            <class name="com.guru99.qa.testcases.TC003"></class>
+            <class name="com.guru99.qa.testcases.TC004"></class>
+            <class name="com.guru99.qa.testcases.TC005"></class>
+            <class name="com.guru99.qa.testcases.TC006"></class>
+
+
+        </classes>
+    </test>
+</suite>

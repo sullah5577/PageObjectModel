@@ -1,8 +1,9 @@
 package com.guru99.qa;
 
 ;
-import com.guru99.utilities.ConfigReader;
-import com.guru99.utilities.Log;
+import com.guru99.qa.utilities.ConfigReader;
+
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -32,7 +33,7 @@ public class DriverWrapper {
     @BeforeClass
     public void InitiliazeWebDriver(){
         //Write a Log when tests is starting
-        Log.startLog("Test is starting!");
+
         ConfigReader reader = new ConfigReader();
 
         if (reader.getBrowser().equalsIgnoreCase("chrome")){

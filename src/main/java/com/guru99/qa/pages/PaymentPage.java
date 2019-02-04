@@ -2,7 +2,7 @@ package com.guru99.qa.pages;
 
 import com.guru99.qa.DriverWrapper;
 import com.guru99.qa.base.Base;
-import util.ConfigReader;
+import com.guru99.qa.utilities.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;

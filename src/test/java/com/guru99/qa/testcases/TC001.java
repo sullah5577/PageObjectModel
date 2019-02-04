@@ -10,7 +10,7 @@ public class TC001 extends DriverWrapper {
     HomePage page = new HomePage();
 
     @Test
-    public void verifyTitleofHomePage(){
+    public void TestTC001(){
         page.verifyHomePageTitle();
         page.clickOnMobileLink();
         page.selectSortByMenu();

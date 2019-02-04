@@ -1,4 +1,4 @@
-package com.guru99.utilities;
+package com.guru99.qa.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
