@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0a49cc4-1b49-4ef6-b748-cd347545db5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guru99/qa/listener/ExtentListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guru99/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC004.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +20,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/listener/ExtentListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/Log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +47,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC002.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC004.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/MobilePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,13 +122,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/con/guru99/qa/listener/ExtentListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/PaymentPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/logger/LoggerHelp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/logger/LogHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/logs/LoggerSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC004.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java" />
       </list>
     </option>
   </component>
@@ -75,10 +148,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="650" />
-    <option name="y" value="27" />
-    <option name="width" value="660" />
-    <option name="height" value="741" />
+    <option name="y" value="25" />
+    <option name="width" value="1360" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -117,22 +189,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PageObjectModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PageObjectModel" type="b2602c69:ProjectViewProjectNode" />
@@ -180,7 +237,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TC003">
+    <configuration name="TC000" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guru99.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guru99.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.guru99.qa.testcases.TC000" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC000.TestTC000" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guru99.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guru99.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.guru99.qa.testcases.TC000" />
+      <option name="METHOD_NAME" value="TestTC000" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001.TestTC001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guru99.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guru99.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.guru99.qa.testcases.TC001" />
+      <option name="METHOD_NAME" value="TestTC001" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC003" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guru99.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guru99.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.guru99.qa.testcases.TC003" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/home/faz/Desktop/PageObjectModel/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PageObjectModel" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
@@ -193,6 +318,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC003" />
+        <item itemvalue="TestNG.TC000.TestTC000" />
+        <item itemvalue="TestNG.TC001.TestTC001" />
+        <item itemvalue="TestNG.TC000" />
         <item itemvalue="TestNG./home/faz/Desktop/PageObjectModel/src/main/resources/testng.xml" />
       </list>
     </recent_temporary>
@@ -212,81 +341,81 @@
       <option name="project" value="LOCAL" />
       <updated>1549210486033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configured generated Extent reports with testng">
+      <created>1549252725014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549252725014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_faz_Desktop_PageObjectModel_src_main_resources_testng_xml - 2019.02.03 at 22h 27m 13s.xml">
-      <configuration name="/home/faz/Desktop/PageObjectModel/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="TC000 - 2019.02.04 at 20h 24m 06s.xml">
+      <configuration name="TC000" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_faz_Desktop_PageObjectModel_src_main_resources_testng_xml - 2019.02.03 at 22h 31m 33s.xml">
-      <configuration name="/home/faz/Desktop/PageObjectModel/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="TC000 - 2019.02.04 at 20h 30m 20s.xml">
+      <configuration name="TC000" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 20h 33m 41s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 20h 37m 48s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 20h 40m 42s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 21h 00m 04s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 21h 00m 28s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 21h 07m 46s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC001_TestTC001 - 2019.02.11 at 21h 13m 42s.xml">
+      <configuration name="TC001.TestTC001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC000_TestTC000 - 2019.02.12 at 11h 43m 24s.xml">
+      <configuration name="TC000.TestTC000" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1360" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29984778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977169" weight="0.4723127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5022831" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49847794" weight="0.32736155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="made some changes" />
+    <MESSAGE value="Configured generated Extent reports with testng" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured generated Extent reports with testng" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/listener/ExtentListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/PaymentPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -294,34 +423,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC002.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/logger/Logger.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/logger/LogHelper.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="532">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/logs/LoggerSystem.java" />
+    <entry file="file://$PROJECT_DIR$/test-output/guru99_Extent.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/base/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="-855">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/AddToCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/listener/ExtentListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC005.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="-113">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.log" />
+    <entry file="file://$PROJECT_DIR$/automation.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/utilities/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/DriverWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guru99/qa/pages/MobilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/guru99/qa/testcases/TC003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>

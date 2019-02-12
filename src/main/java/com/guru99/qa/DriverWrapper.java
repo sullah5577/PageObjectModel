@@ -4,7 +4,9 @@ package com.guru99.qa;
 import com.guru99.qa.utilities.ConfigReader;
 
 
+import com.guru99.qa.utilities.Log;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,6 +25,9 @@ public class DriverWrapper {
 
 
 
+
+
+
     public static WebDriver getDriver(){
         return driver;
 
@@ -30,11 +35,14 @@ public class DriverWrapper {
 
 
 
+
+
     @BeforeClass
     public void InitiliazeWebDriver(){
-        //Write a Log when tests is starting
+
 
         ConfigReader reader = new ConfigReader();
+        Log.startLog("Test is starting!");
 
         if (reader.getBrowser().equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
@@ -63,6 +71,7 @@ public class DriverWrapper {
 
     @AfterClass
     public void tearDown(){
+        Log.endLog("Test is ending!");
         driver.quit();
     }
 

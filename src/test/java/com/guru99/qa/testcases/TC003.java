@@ -2,6 +2,7 @@ package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
 import com.guru99.qa.pages.AddToCartPage;
+import com.guru99.qa.utilities.Log;
 import org.testng.annotations.Test;
 
 public class TC003 extends DriverWrapper {
@@ -25,11 +26,17 @@ public class TC003 extends DriverWrapper {
 
     @Test
     public void TestTC003(){
+        Log.info("Click on Mobile menu");
         cartPage.clickOnMobileMenu();
+        Log.info("Click add to cart for sony xperia from product list ");
         cartPage.clickOnAddToCart();
+        Log.info("Change qty to 1000");
         cartPage.changeQtyValue();
+        Log.info("Verify qty error message");
         cartPage.verifyErrorMsg();
+        Log.info("Click on Empty Cart btn");
         cartPage.clickOnEmptyCart();
+        Log.info("Verify cart is empty");
         cartPage.verifyCartEmpty();
 
     }

@@ -1,0 +1,15 @@
+02-11-2019 21:00:03 INFO  TC001 :18 - logger is congigured
+02-11-2019 21:00:26 INFO  TC001 :18 - logger is congigured
+02-11-2019 21:07:45 INFO  devpinoyLogger :17 - Verify Homepage Title
+02-12-2019 11:43:11 INFO  Log :12 - Test is Starting...
+02-12-2019 11:43:21 INFO  Log :22 - Click on the sign in button
+02-12-2019 11:43:21 INFO  Log :22 - Enter Login credentials
+02-12-2019 11:43:22 INFO  Log :17 - Test is Ending...
+02-12-2019 12:19:51 INFO  Log :12 - Test is Starting...
+02-12-2019 12:19:58 INFO  Log :22 - Click on Mobile menu
+02-12-2019 12:19:59 INFO  Log :22 - Click add to cart for sony xperia from product list 
+02-12-2019 12:20:17 INFO  Log :22 - Change qty to 1000
+02-12-2019 12:20:18 INFO  Log :22 - Verify qty error message
+02-12-2019 12:20:18 INFO  Log :22 - Click on Empty Cart btn
+02-12-2019 12:20:19 INFO  Log :22 - Verify cart is empty
+02-12-2019 12:20:19 INFO  Log :17 - Test is Ending...

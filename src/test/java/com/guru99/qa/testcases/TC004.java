@@ -20,15 +20,15 @@ public class TC004 extends DriverWrapper {
     @Test
     public void TestTC004() throws InterruptedException {
         page.clickOnMobileLink();
-        Thread.sleep(3000);
+
         page.clickOnXperiaCompareBtn();
-        Thread.sleep(3000);
+
         page.clickOnIphoneCompareBtn();
         page.clickOnCompareBtn();
         page.switchToCompareWindow();
         page.verifyCompare();
         page.closePopUpWindow();
-        Thread.sleep(3000);
+
         
     }
 }
