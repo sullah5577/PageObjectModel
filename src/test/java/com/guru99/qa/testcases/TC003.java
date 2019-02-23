@@ -1,7 +1,7 @@
 package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
-import com.guru99.qa.pages.AddToCartPage;
+import com.guru99.qa.pages.webpage.AddToCartPage;
 import com.guru99.qa.utilities.Log;
 import org.testng.annotations.Test;
 
@@ -36,7 +36,7 @@ public class TC003 extends DriverWrapper {
         cartPage.verifyErrorMsg();
         Log.info("Click on Empty Cart btn");
         cartPage.clickOnEmptyCart();
-        Log.info("Verify cart is empty");
+        Log.info("Verify cart is emptys");
         cartPage.verifyCartEmpty();
 
     }

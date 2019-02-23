@@ -1,7 +1,7 @@
 package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
-import com.guru99.qa.pages.ComparePage;
+import com.guru99.qa.pages.webpage.ComparePage;
 import org.testng.annotations.Test;
 
 public class TC004 extends DriverWrapper {

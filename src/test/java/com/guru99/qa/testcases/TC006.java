@@ -1,7 +1,7 @@
 package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
-import com.guru99.qa.pages.PaymentPage;
+import com.guru99.qa.pages.webpage.PaymentPage;
 import org.testng.annotations.Test;
 
 public class TC006 extends DriverWrapper {

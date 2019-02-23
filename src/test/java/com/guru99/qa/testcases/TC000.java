@@ -1,11 +1,9 @@
 package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
-import com.guru99.qa.pages.LoginPage;
+import com.guru99.qa.pages.webpage.LoginPage;
 
 import com.guru99.qa.utilities.Log;
-import org.apache.log4j.Logger;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 

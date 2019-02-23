@@ -1,7 +1,7 @@
 package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
-import com.guru99.qa.pages.MobilePage;
+import com.guru99.qa.pages.webpage.MobilePage;
 import org.testng.annotations.Test;
 
 public class TC002 extends DriverWrapper {

@@ -1,4 +1,4 @@
-package com.guru99.qa.pages;
+package com.guru99.qa.pages.webpage;
 
 import com.guru99.qa.DriverWrapper;
 import com.guru99.qa.base.Base;

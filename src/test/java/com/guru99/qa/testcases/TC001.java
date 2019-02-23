@@ -2,9 +2,8 @@ package com.guru99.qa.testcases;
 
 import com.guru99.qa.DriverWrapper;
 
-import com.guru99.qa.pages.HomePage;
+import com.guru99.qa.pages.webpage.HomePage;
 import com.guru99.qa.utilities.Log;
-import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
 public class TC001 extends DriverWrapper {
